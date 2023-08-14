@@ -1,5 +1,6 @@
 import Footer from "./Footer"
 import Header from "./Header"
+import Posts from "./Posts"
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
               <p>OTHER BLOGS</p>
           </div>
           <div className="col-5 purple">
-              <p>POSTS</p>
-              <p>POSTS</p>
-              <p>POSTS</p>
+              <Posts />
           </div>
           <div className="col-3 orange">
               <p>RECENT ENTRIES</p>
