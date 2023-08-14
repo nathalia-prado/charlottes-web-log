@@ -2,6 +2,7 @@ import Footer from "./Footer"
 import Header from "./Header"
 import OtherBlogs from "./OtherBlogs"
 import Posts from "./Posts"
+import RecentEntries from "./RecentEntries"
 
 function App() {
   return (
@@ -16,10 +17,8 @@ function App() {
           <div className="col-5">
             <Posts />
           </div>
-          <div className="col-3 orange">
-              <p>RECENT ENTRIES</p>
-              <p>RECENT ENTRIES</p>
-              <p>RECENT ENTRIES</p>
+          <div className="col-3">
+            <RecentEntries />
           </div>
           <div className="col-11">
             <Footer />
