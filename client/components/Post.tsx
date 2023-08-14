@@ -8,11 +8,11 @@ interface Props {
 
 function Post(props: Props) {
     return (
-        <div>
-        <h3>{props.title}</h3>
-        <p>{props.date}</p>
-        <p>{props.commentCount}</p>
-        {props.paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+        <div className="card purple">
+            <h3>{props.title}</h3>
+            <p>{props.date}</p>
+            {props.paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+            <p className="comment">Comments: {props.commentCount}</p>
         </div>
     )
 }
